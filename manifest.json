@@ -1,0 +1,19 @@
+{
+  "id": "httpql-quick-query-plugin",
+  "name": "HTTPQL Quick Query",
+  "version": "0.1.0",
+  "description": "",
+  "author": {
+    "name": "Marphlap",
+    "url": "https://github.com/dbugb/httpql_quick_query"
+  },
+  "plugins": [
+    {
+      "kind": "frontend",
+      "id": "caido-extra-commands",
+      "name": "Extra Commands",
+      "entrypoint": "frontend/script.js",
+      "style": "frontend/style.css"
+    }
+  ]
+}
